@@ -1,0 +1,7 @@
+the answer can be looked up from city
+the answer can be looked up from state
+the answer can be looked up from highlow
+the answer can be looked up from border_info
+the answer can be looked up from mountain
+the answer can be looked up from river
+the answer can be looked up from lake
