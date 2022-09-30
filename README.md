@@ -71,9 +71,13 @@ mkdir data/geo_sql_query_group/bart-checkpoints-large &&
 mkdir data/geo_sql_query_order/bart-checkpoints-large 
 ```
 download checkpoint38.pt to data/geo_sql_query_from/bart-checkpoints-large
+
 download checkpoint23.pt to data/geo_sql_query_select/bart-checkpoints-large
+
 download checkpoint99.pt to data/geo_sql_query_where/bart-checkpoints-large
+
 download checkpoint10.pt to data/geo_sql_query_group/bart-checkpoints-large
+
 download checkpoint37.pt to data/geo_sql_query_order/bart-checkpoints-large 
 
 
