@@ -148,6 +148,9 @@ def main():
         "--constraints", help='whether there are lexical constraints.', action='store_true'
     )
     parser.add_argument(
+        "--no-hard-constraint", help='whether there are lexical constraints.', action='store_true'
+    )
+    parser.add_argument(
         "--prompt-file", default="", help="where to find prefixe trees", type=str
     )
     parser.add_argument('--weight-ensemble', type=float, default=0.0)
@@ -181,6 +184,7 @@ def main():
     if args.sort_by_first_token:
         eval_kwargs["sort_by_first_token"]=True
     eval_kwargs["prediction_weight"]=args.prediction_weight
+    eval_kwargs["hard_constraint"] = not args.no_hard_constraint
     if torch.cuda.is_available():
         bart = bart.cuda().half()
     generate(

@@ -11,18 +11,18 @@ do
     do
         python sql2prompts.py -in_order select -out_order from -clause $clause -prompt -in_file ../parser/data/aligned_data/geo/query.$split -out_src ../parser/data/geo_sql_query_$clause/src.$split -out_tgt ../parser/data/geo_sql_query_$clause/tgt.$split -out_prompt ../parser/data/geo_sql_query_$clause/prompt.$split
     done
-done '
+done 
 
 # Query (compositional/template) split, "From" clause w/o alias
 python sql2nested-prompts.py -in_file ../parser/data/aligned_data/geo/query.train -out_src ../parser/data/geo_sql_query_from/src.train -out_tgt ../parser/data/geo_sql_query_from/tgt.train
 python sql2nested-prompts.py -in_file ../parser/data/aligned_data/geo/query.dev -out_src ../parser/data/geo_sql_query_from/src.dev -out_tgt ../parser/data/geo_sql_query_from/tgt.dev
-python sql2nested-prompts.py -in_file ../parser/data/aligned_data/geo/query.test -out_src ../parser/data/geo_sql_query_from/src.test -out_tgt ../parser/data/geo_sql_query_from/tgt.test 
+python sql2nested-prompts.py -in_file ../parser/data/aligned_data/geo/query.test -out_src ../parser/data/geo_sql_query_from/src.test -out_tgt ../parser/data/geo_sql_query_from/tgt.test '
 
 
-: 'for split in train dev test
+for split in train dev test
 do 
     for clause in where_zero where_condition where_match
     do
-        python sql2prompts-internal.py -in_order select -out_order select -clause $clause -prompt -in_src_file /Users/jingfe/sem_parses/SUBS-Semantic-Parsing/data/internal_sql_query_comp/src.$split -in_tgt_file /Users/jingfe/sem_parses/SUBS-Semantic-Parsing/data/internal_sql_query_comp/tgt.$split -out_src /Users/jingfe/sem_parses/SUBS-Semantic-Parsing/data/internal_sql_query_$clause/src.$split -out_tgt /Users/jingfe/sem_parses/SUBS-Semantic-Parsing/data/internal_sql_query_$clause/tgt.$split -out_prompt /Users/jingfe/sem_parses/SUBS-Semantic-Parsing/data/internal_sql_query_$clause/prompt.$split
+        python sql2prompts-internal.py -in_order select -out_order select -clause $clause -prompt -in_src_file ../raw_data/internal_sql_query_comp/src.$split -in_tgt_file ../raw_data/internal_sql_query_comp/tgt.$split -out_src ../parser/data/internal_sql_query_$clause/src.$split -out_tgt ../parser/data/internal_sql_query_$clause/tgt.$split -out_prompt ../parser/data/internal_sql_query_$clause/prompt.$split
     done
-done '
+done 

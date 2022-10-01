@@ -1,0 +1,355 @@
+select * from asins where matchingalgorithm(mi4 mobile phone) and size = 64 gb
+select * from asins where matchingalgorithm(led) and size = 32 inch
+select * from asins where matchingalgorithm(brown belt for men) and price > 200
+select * from asins where matchingalgorithm(powerbank) and size = 10000mah
+select * from asins where matchingalgorithm(memory card class 6) and size = 16 gb
+select * from asins where matchingalgorithm(tv) and size = 22 inch
+select * from asins where matchingalgorithm(mppt solar controller) and subscribe = true
+select * from asins where matchingalgorithm(seven brothers of sin: a reverse harem romance) and price > 20
+select * from asins where matchingalgorithm(colleges and university basketball jersey) and subscribe = true
+select * from asins where matchingalgorithm(mi power bank) and size = 10400mah
+select * from asins where matchingalgorithm(android phone) and size = 5.5 inch
+select * from asins where matchingalgorithm(led) and size = 40 inch
+select * from asins where matchingalgorithm(power shower head) and price > 150
+select * from asins where matchingalgorithm(womens watches time) and subscribe = true
+select * from asins where matchingalgorithm(memory) and size = 16 gb
+select * from asins where matchingalgorithm(led tv smart) and size = 32 inch
+select * from asins where matchingalgorithm(loctite 435) and subscribe = true
+select * from asins where matchingalgorithm(ram mobiles android) and size = 2 gb
+select * from asins where matchingalgorithm(cheap macbook) and price > 20
+select * from asins where matchingalgorithm(baby boho headbands) and subscribe = true
+select * from asins where matchingalgorithm(wallet) and size = mini
+select * from asins where matchingalgorithm(t350nzaaxar) and subscribe = true
+select * from asins where matchingalgorithm(mobile phone) and size = small
+select * from asins where matchingalgorithm(memory card) and size = 8gb
+select * from asins where matchingalgorithm(kids birthday partys) and price > 20
+select * from asins where matchingalgorithm(hd sunglasses) and subscribe = true
+select * from asins where matchingalgorithm(new nicer dicer plus multi chopper vegetabl) and size = 14 pc
+select * from asins where matchingalgorithm(white wedge shoes) and price > 5000
+select * from asins where matchingalgorithm(night wears for women) and price > 300
+select * from asins where matchingalgorithm(zeiss) and size = 50mm
+select * from asins where matchingalgorithm(cool bucket hats) and subscribe = true
+select * from asins where matchingalgorithm(led tv) and size = 28 inch
+select * from asins where matchingalgorithm(desktop hard drive) and size = 500gb
+select * from asins where matchingalgorithm(full hd tv) and size = 24 inch
+select * from asins where matchingalgorithm(pendrive) and size = 32 gb
+select * from asins where matchingalgorithm(led tv) and size = 32 inch
+select * from asins where matchingalgorithm(memory card) and size = 32gb
+select * from asins where matchingalgorithm(iphone 4s) and size = 16gb
+select * from asins where matchingalgorithm(matt board) and price > 250
+select * from asins where matchingalgorithm(ipad air wifi) and size = 16gb
+select * from asins where matchingalgorithm(white pant shirt for mens) and price > 20
+select * from asins where matchingalgorithm(led light 100 pcs) and size = 3mm
+select * from asins where matchingalgorithm(class10) and size = 32gb
+select * from asins where matchingalgorithm(dread wig) and price > 1000
+select * from asins where matchingalgorithm() and size = 32gb
+select * from asins where matchingalgorithm() and size = 10 foot
+select * from asins where matchingalgorithm(cat 6 cable white) and price > 250
+select * from asins where matchingalgorithm(auto touch up paint) and subscribe = true
+select * from asins where matchingalgorithm(32j4100) and size = 28 inches
+select * from asins where matchingalgorithm(memory card) and size = 16 gb
+select * from asins where matchingalgorithm(speakers home) and subscribe = true
+select * from asins where matchingalgorithm(makeup sets) and subscribe = true
+select * from asins where matchingalgorithm(wall decals never let the fear of striking out) and subscribe = true
+select * from asins where matchingalgorithm(city quitters) and price > 200
+select * from asins where matchingalgorithm(tv) and size = 19 inches
+select * from asins where matchingalgorithm(moto g 3rd) and size = 16gb
+select * from asins where matchingalgorithm(wedding accessories) and subscribe = true
+select * from asins where matchingalgorithm(memory card) and size = 16gb
+select * from asins where matchingalgorithm(iphone 5s) and size = 32gb
+select * from asins where matchingalgorithm(blood type test kit) and price > 100
+select * from asins where matchingalgorithm(studio sole) and subscribe = true
+select * from asins where matchingalgorithm(lead substitute fuel additive) and subscribe = true
+select * from asins where matchingalgorithm(wide size 12 heels) and price > 20 and price < 10
+select * from asins where matchingalgorithm(iphone 5s) and size = 64gb
+select * from asins where matchingalgorithm(braided rope) and size = 1/2 inch
+select * from asins where matchingalgorithm(printe) and subscribe = true
+select * from asins where matchingalgorithm(superstar foundation adidas) and price > 300
+select * from asins where matchingalgorithm(green lime decor) and price > 100
+select * from asins where matchingalgorithm(gap jeans for men) and price > 200 and price < 5
+select * from asins where matchingalgorithm(bit) and subscribe = true
+select * from asins where matchingalgorithm(powerbank) and size = 20000mah
+select * from asins where matchingalgorithm(puppy coat) and size = xxs
+select * from asins where matchingalgorithm(wii u controller) and price > 200
+select * from asins where matchingalgorithm(i phone 5s) and size = 32 gb
+select * from asins where matchingalgorithm(doctor 's bag) and price > 1000
+select * from asins where matchingalgorithm(macbook air) and size = 11 inch
+select * from asins where matchingalgorithm(sd card) and size = 4 gb
+select * from asins where matchingalgorithm(natural medicine book) and subscribe = true
+select * from asins where matchingalgorithm(power bank) and size = 10000mah
+select * from asins where matchingalgorithm(pen drive) and size = 16gb
+select * from asins where matchingalgorithm(mobile phones android with ram) and size = 2gb
+select * from asins where matchingalgorithm(denim waistcoat for women) and subscribe = true
+select * from asins where matchingalgorithm(usb cable) and size = micro
+select * from asins where matchingalgorithm(cotton sarees) and subscribe = true
+select * from asins where matchingalgorithm(dance bracelet) and subscribe = true
+select * from asins where matchingalgorithm(petrol trimmer) and price > 300
+select * from asins where matchingalgorithm(led tv full hd offers) and size = 32 inch
+select * from asins where matchingalgorithm(memory card) and size = 8gb
+select * from asins where matchingalgorithm(sd card) and size = 32 gb
+select * from asins where matchingalgorithm(costume footman) and subscribe = true
+select * from asins where matchingalgorithm(ram smartphones) and size = 1gb
+select * from asins where matchingalgorithm(cool dressing gown) and price > 2000 and price < 400
+select * from asins where matchingalgorithm(boys sweaters) and price > 200
+select * from asins where matchingalgorithm(macbook air) and size = 15 inch
+select * from asins where matchingalgorithm(battery charger) and size = 10000 mah
+select * from asins where matchingalgorithm(dress shoes girls) and size = size 2
+select * from asins where matchingalgorithm(uggs slipper) and subscribe = true
+select * from asins where matchingalgorithm(s9 cover) and subscribe = true
+select * from asins where matchingalgorithm(pen drive) and size = 1 tb
+select * from asins where matchingalgorithm(power bank) and size = 12000mah
+select * from asins where matchingalgorithm(various artists) and price > 350
+select * from asins where matchingalgorithm(holiday garlands) and subscribe = true
+select * from asins where matchingalgorithm(03 kx 125) and subscribe = true
+select * from asins where matchingalgorithm(sun reflectors) and price > 200
+select * from asins where matchingalgorithm(ethernet cable 40 ft) and price > 400
+select * from asins where matchingalgorithm(round kitchen tablecloth) and size = 90 inch
+select * from asins where matchingalgorithm() and size = 8 gb
+select * from asins where matchingalgorithm(matcha) and price > 200
+select * from asins where matchingalgorithm(wall hole cord cover) and price > 100
+select * from asins where matchingalgorithm(cake plate stand) and size = 13 inch
+select * from asins where matchingalgorithm(eric e johnson god) and subscribe = true
+select * from asins where matchingalgorithm(iphone 5 case flip cover) and price > 150
+select * from asins where matchingalgorithm(gopro hero 4 black) and price > 400
+select * from asins where matchingalgorithm(wedding jewlery set) and price > 2000
+select * from asins where matchingalgorithm(stereo speakerphone) and size = 3.5mm
+select * from asins where matchingalgorithm(android phone) and size = 6 inch
+select * from asins where matchingalgorithm(iphone 6) and size = 64gb
+select * from asins where matchingalgorithm(national park shirt) and subscribe = true
+select * from asins where matchingalgorithm(1940s) and price > 300
+select * from asins where matchingalgorithm(camera strap) and subscribe = true
+select * from asins where matchingalgorithm(job) and price > 100
+select * from asins where matchingalgorithm(memory card class 10) and size = 32 gb
+select * from asins where matchingalgorithm(ipad mini wifi) and size = 16 gb
+select * from asins where matchingalgorithm(pendrive) and size = 32 gb
+select * from asins where matchingalgorithm(sat nav) and price > 10
+select * from asins where matchingalgorithm(male to male cable) and size = 6.35mm
+select * from asins where matchingalgorithm(ginseng honey) and price > 200
+select * from asins where matchingalgorithm(chip n dale rescue rangers) and subscribe = true
+select * from asins where matchingalgorithm(torches) and price > 400
+select * from asins where matchingalgorithm(tinkerbell) and price > 1000
+select * from asins where matchingalgorithm() and size = 32 gb
+select * from asins where matchingalgorithm(ipod 5th generation) and size = 32 gb
+select * from asins where matchingalgorithm(ear piercing kit) and price > 2000
+select * from asins where matchingalgorithm(a4 lined project books) and price > 500
+select * from asins where matchingalgorithm(iphone 6 plus gold) and size = 64gb
+select * from asins where matchingalgorithm(laundry room sticker for glass door) and price > 400
+select * from asins where matchingalgorithm(power bank) and size = 12000mah
+select * from asins where matchingalgorithm(led tv) and size = 4k
+select * from asins where matchingalgorithm(4 telephones) and price > 350
+select * from asins where matchingalgorithm(disney games board games) and subscribe = true
+select * from asins where matchingalgorithm(cramster saddle bag) and subscribe = true
+select * from asins where matchingalgorithm(red masquerade masks) and price > 500 and price < 150
+select * from asins where matchingalgorithm(sd card) and size = 4 gb
+select * from asins where matchingalgorithm(vans copy) and subscribe = true
+select * from asins where matchingalgorithm(vu 40d6575 ( 40 ) led tv ( full hd )) and size = 102 cm
+select * from asins where matchingalgorithm(memory card class 10) and size = 32 gb
+select * from asins where matchingalgorithm(pendrive) and size = 16gb
+select * from asins where matchingalgorithm(breadboard) and size = mini
+select * from asins where matchingalgorithm(memory card class 10) and size = 16 gb
+select * from asins where matchingalgorithm(led tv) and size = 24 inch
+select * from asins where matchingalgorithm(helmet guns n roses) and price > 350
+select * from asins where matchingalgorithm(ram) and size = 1.5 gb
+select * from asins where matchingalgorithm(here comes the bride) and price > 10
+select * from asins where matchingalgorithm(richard laymon) and subscribe = true
+select * from asins where matchingalgorithm(veste pour homme) and subscribe = true
+select * from asins where matchingalgorithm(final fantasy cd) and subscribe = true
+select * from asins where matchingalgorithm(led tv full hd) and size = 42 inch
+select * from asins where matchingalgorithm(adderall) and subscribe = true
+select * from asins where matchingalgorithm(iphone 6 plus) and size = 64 gb
+select * from asins where matchingalgorithm(scotch brite grill) and price > 400 and price < 10
+select * from asins where matchingalgorithm(led tv full hd) and size = 32 inch
+select * from asins where matchingalgorithm(green bay packers cap) and subscribe = true
+select * from asins where matchingalgorithm(judy hopps) and subscribe = true
+select * from asins where matchingalgorithm(indian punjabi suit) and price > 150 and price < 20
+select * from asins where matchingalgorithm(cross stitch peacock) and price > 5000
+select * from asins where matchingalgorithm(denim shorts for men) and subscribe = true
+select * from asins where matchingalgorithm(os) and size = 70-300mm
+select * from asins where matchingalgorithm(cricket bat cover) and price > 10 and price < 5
+select * from asins where matchingalgorithm(memory card) and size = 32 gb
+select * from asins where matchingalgorithm(good and pink pen) and price > 2000
+select * from asins where matchingalgorithm(memory card) and size = 16 gb
+select * from asins where matchingalgorithm(moto g4 plus back cover +data cable) and subscribe = true
+select * from asins where matchingalgorithm(mi4) and size = 64 gb
+select * from asins where matchingalgorithm(galaxytab) and size = 8.4 inch
+select * from asins where matchingalgorithm(poster table tennis) and price > 150
+select * from asins where matchingalgorithm(led tv samsung) and size = 32 inches
+select * from asins where matchingalgorithm(memory card class 10) and size = 16gb
+select * from asins where matchingalgorithm(conference folder) and subscribe = true
+select * from asins where matchingalgorithm(wall charger) and size = 2amp
+select * from asins where matchingalgorithm(shower curtain liner mildew resistant) and price > 250 and price < 200
+select * from asins where matchingalgorithm(amo jones) and price > 300 and price < 150
+select * from asins where matchingalgorithm(money clips) and price > 250
+select * from asins where matchingalgorithm(charger) and size = 2 amp
+select * from asins where matchingalgorithm(memory card) and size = 32 gb
+select * from asins where matchingalgorithm(external battery) and size = 12v
+select * from asins where matchingalgorithm(anti wrinkle cream) and price > 250
+select * from asins where matchingalgorithm(white three shelf bookcases) and price > 300
+select * from asins where matchingalgorithm(malabar gold earrings) and subscribe = true
+select * from asins where matchingalgorithm(power bank lappy) and size = 10000mah
+select * from asins where matchingalgorithm(jacket girl) and price > 250
+select * from asins where matchingalgorithm(how to make video presentations) and subscribe = true
+select * from asins where matchingalgorithm(icon design) and subscribe = true
+select * from asins where matchingalgorithm(gtx 960) and size = 2gb
+select * from asins where matchingalgorithm(biggest arctic tumbler) and subscribe = true
+select * from asins where matchingalgorithm(shimmer leggings) and price > 100 and price < 5
+select * from asins where matchingalgorithm(t pain) and subscribe = true
+select * from asins where matchingalgorithm(36 inch paper roll colored) and price > 20
+select * from asins where matchingalgorithm(lingerie band) and price > 2000
+select * from asins where matchingalgorithm(deodorant axe) and price > 10
+select * from asins where matchingalgorithm(nikon d3200 with lens) and size = 18-140mm
+select * from asins where matchingalgorithm(weaphones gun simulator) and subscribe = true
+select * from asins where matchingalgorithm(portable hard drive) and size = 2 tb
+select * from asins where matchingalgorithm(callaway gpsy golf gps watch) and price > 250
+select * from asins where matchingalgorithm(redmi 2 prime mobile) and size = 16 gb
+select * from asins where matchingalgorithm(lb5900) and subscribe = true
+select * from asins where matchingalgorithm(memory card class 6 for mobile) and size = 16 gb
+select * from asins where matchingalgorithm(mi india remdi prime 2) and size = 16 gb
+select * from asins where matchingalgorithm(levi's) and subscribe = true
+select * from asins where matchingalgorithm(microsd) and size = 32gb
+select * from asins where matchingalgorithm(redmi 2 prime) and size = 16 gb
+select * from asins where matchingalgorithm(labret) and size = 16g
+select * from asins where matchingalgorithm(power bank) and size = 5000mah
+select * from asins where matchingalgorithm(side pillow) order by date-desc-rank
+select * from asins where matchingalgorithm(paint strainer) and price < 300 order by date-desc-rank
+select * from asins where matchingalgorithm(latest lehnga choli for wedding function for girls) order by date-desc-rank
+select * from asins where matchingalgorithm(sport wireless earphones) and delivery = 'prime'
+select * from asins where matchingalgorithm(past crimes) and delivery = 'same-day'
+select * from asins where matchingalgorithm(sandals for men latest) and price < 400 order by date-desc-rank
+select * from asins where matchingalgorithm(latest top for girls of 12 years) and price < 350 order by date-desc-rank
+select * from asins where matchingalgorithm(iphone charger cable iphone) and price = 2000
+select * from asins where matchingalgorithm(dress for women latest design) order by date-desc-rank
+select * from asins where matchingalgorithm(neatsfoot oil) and delivery = 'same-day'
+select * from asins where matchingalgorithm(surface pro 3 accessories) and price < 500
+select * from asins where matchingalgorithm(filament 1.75 abs) and price = 350
+select * from asins where matchingalgorithm(woman's running shoe) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(woman's running shoe)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(latest watch) and price < 2000 order by date-desc-rank
+select * from asins where matchingalgorithm(j2 2016 model) and price < 250
+select * from asins where matchingalgorithm(show piece) order by review-rank
+select * from asins where matchingalgorithm(memory) and size > 16 gb
+select * from asins where matchingalgorithm(bright day light led bulb) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(bright day light led bulb)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(oppo f3 back covers latest) and price < 10 order by date-desc-rank
+select * from asins where matchingalgorithm(latest fashion of women salwar suits) order by date-desc-rank
+select * from asins where matchingalgorithm(matte box) and delivery = 'prime'
+select * from asins where matchingalgorithm(ladies sarees designer latest) and price < 200 order by date-desc-rank
+select * from asins where matchingalgorithm(male to male cable) and size > 6.35mm
+select * from asins where matchingalgorithm(power bank) and size > 12000mah
+select * from asins where matchingalgorithm(sitting) and delivery = 'next-day'
+select * from asins where matchingalgorithm(isagenix) and delivery = 'same-day'
+select * from asins where matchingalgorithm(ladies juti) and delivery = 'prime'
+select * from asins where matchingalgorithm(latest patiyala suit 2017) order by date-desc-rank
+select * from asins where matchingalgorithm(qi wireless car charger nexus 6) order by date-desc-rank
+select * from asins where matchingalgorithm(modern clock) and delivery = 'prime'
+select * from asins where matchingalgorithm(roulette game) and size > 8 inch
+select * from asins where matchingalgorithm(bubble machine) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(bubble machine)) group by brand order by avg(review-score) desc limit 10)
+select * from asins where matchingalgorithm(pink suede shorts) order by review-rank
+select * from asins where matchingalgorithm(macadamia black) and delivery = 'prime'
+select * from asins where matchingalgorithm(kildle fire) and delivery = 'next-day'
+select * from asins where matchingalgorithm(yellow cushions cheap) and price < 500 order by date-desc-rank
+select * from asins where matchingalgorithm(latest dresses for girls party wear) and price < 2000 order by date-desc-rank
+select * from asins where matchingalgorithm(breadboard) and size > mini
+select * from asins where matchingalgorithm(fastrack watches for womens latest) order by date-desc-rank
+select * from asins where matchingalgorithm(tankini) and size > xl
+select * from asins where matchingalgorithm(silver chaing set earing) and price = 250
+select * from asins where matchingalgorithm(spinning reels) and price < 250 order by date-desc-rank
+select * from asins where matchingalgorithm(bracelets for men) and price < 150
+select * from asins where matchingalgorithm(metalic watercolor) and price = 150
+select * from asins where matchingalgorithm(albert valdman) and price < 150 order by date-desc-rank
+select * from asins where matchingalgorithm(leather purses) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(leather purses)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(sd card micro) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(sd card micro)) group by brand order by avg(review-score) desc limit 10)
+select * from asins where matchingalgorithm(795016164111) and price < 200
+select * from asins where matchingalgorithm(wall stickers for living room) and delivery = 'prime'
+select * from asins where matchingalgorithm(vans mens shoes tan) and price < 100
+select * from asins where matchingalgorithm(cable protector) order by date-desc-rank
+select * from asins where matchingalgorithm(as15) and delivery = 'prime'
+select * from asins where matchingalgorithm(heavy duty oval toilet seat) and price = 200
+select * from asins where matchingalgorithm(synthetic leather tote bag buckle & zipper details) and price < 500
+select * from asins where matchingalgorithm(9780955149122) and delivery = 'same-day'
+select * from asins where matchingalgorithm(rockabilly top) and size > plus size
+select * from asins where matchingalgorithm(mens) and size > 4xl
+select * from asins where matchingalgorithm(batman kids clothing) and delivery = 'prime'
+select * from asins where matchingalgorithm(galaxytab) and size > 8.4 inch
+select * from asins where matchingalgorithm(diner) and delivery = 'prime'
+select * from asins where matchingalgorithm(chain cutains) and price = 10
+select * from asins where matchingalgorithm(white wall storage) and delivery = 'same-day'
+select * from asins where matchingalgorithm(nike shoes 99 rs) and delivery = 'prime'
+select * from asins where matchingalgorithm(organic vitamin c serum for face) and price = 150
+select * from asins where matchingalgorithm(women bras latest) order by date-desc-rank
+select * from asins where matchingalgorithm(3in 1commode) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(3in 1commode)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(shawl wrap scarf pashmina sheer black beads sequins) and delivery = 'next-day'
+select * from asins where matchingalgorithm(jean jacket women plus size) and delivery = 'next-day'
+select * from asins where matchingalgorithm(toddler boots) and size > size 5
+select * from asins where matchingalgorithm(glowing headphones) and delivery = 'prime'
+select * from asins where matchingalgorithm(fast track watches for men latest) order by date-desc-rank
+select * from asins where matchingalgorithm(qi fast wireless) order by review-rank
+select * from asins where matchingalgorithm(camera strap leather) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(camera strap leather)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(kid clothes ages 12) and price < 100
+select * from asins where matchingalgorithm(strapon for women) and price = 200
+select * from asins where matchingalgorithm(black bath bomb) and delivery = 'next-day'
+select * from asins where matchingalgorithm(latest designer kurtis) order by date-desc-rank
+select * from asins where matchingalgorithm(darkest hour) and price = 5000
+select * from asins where matchingalgorithm(kurti combo pack) and delivery = 'prime'
+select * from asins where matchingalgorithm(karbon a 4) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(karbon a 4)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(thuroglide) and price = 250
+select * from asins where matchingalgorithm(bluetooth dab) order by review-rank
+select * from asins where matchingalgorithm(fart sounds) order by review-rank
+select * from asins where matchingalgorithm(women ring) and size > size 4 and 1/2
+select * from asins where matchingalgorithm(naviforce watches for men latest) order by date-desc-rank
+select * from asins where matchingalgorithm(latest xbox 360 games) order by date-desc-rank
+select * from asins where matchingalgorithm(monitor mount) order by review-rank
+select * from asins where matchingalgorithm(redmi latest mobile phone 2016) order by date-desc-rank
+select * from asins where matchingalgorithm(sex products) and price = 300
+select * from asins where matchingalgorithm(gt pmega) and delivery = 'next-day'
+select * from asins where matchingalgorithm(redmo new latest mobile) order by date-desc-rank
+select * from asins where matchingalgorithm(neewer microphone) order by review-rank
+select * from asins where matchingalgorithm(12 pair argyle socks men) order by review-rank
+select * from asins where matchingalgorithm(red table mats and coasters 6) and price < 250
+select * from asins where matchingalgorithm(white sarees for women latest design) and price < 20 order by date-desc-rank
+select * from asins where matchingalgorithm(band 4) and size > 1700 2100 mhz
+select * from asins where matchingalgorithm(usb) and size > 32gb
+select * from asins where matchingalgorithm(latest dual sim phones) order by date-desc-rank
+select * from asins where matchingalgorithm(frozen dress) and price < 300
+select * from asins where matchingalgorithm(ram) and size > 16 gb
+select * from asins where matchingalgorithm(vintage storage bench) and delivery = 'prime'
+select * from asins where matchingalgorithm(cute nose studs) and price < 100
+select * from asins where matchingalgorithm(printer) and size > compact
+select * from asins where matchingalgorithm(latest dresses for girls party wear) order by date-desc-rank
+select * from asins where matchingalgorithm(led tv) and size > 4k
+select * from asins where matchingalgorithm(lme金属交易手册) and delivery = 'next-day'
+select * from asins where matchingalgorithm(ladies sandals latest designs party wear) and price < 150 order by date-desc-rank
+select * from asins where matchingalgorithm(saris for women latest party wear) and price < 400 order by date-desc-rank
+select * from asins where matchingalgorithm(latest offer) order by date-desc-rank
+select * from asins where matchingalgorithm(art canvas) order by review-rank
+select * from asins where matchingalgorithm(men socks) order by date-desc-rank
+select * from asins where matchingalgorithm(ladies shoes canvas latest) and price < 250 order by date-desc-rank
+select * from asins where matchingalgorithm(cutlery tray) and size > small
+select * from asins where matchingalgorithm(travel passenger bags) and delivery = 'prime'
+select * from asins where matchingalgorithm(black and white king comforter set) and price < 2000 order by date-desc-rank
+select * from asins where matchingalgorithm(kids cycling glasses) and delivery = 'prime'
+select * from asins where matchingalgorithm(drain auger) and price = 200
+select * from asins where matchingalgorithm(waterproof speaker) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(waterproof speaker)) group by brand order by avg(review-score) desc limit 3)
+select * from asins where matchingalgorithm(watch for women stylish latest) order by date-desc-rank
+select * from asins where matchingalgorithm(latest offer) and price < 10 order by date-desc-rank
+select * from asins where matchingalgorithm(denver broncos sticker) order by date-desc-rank
+select * from asins where matchingalgorithm(caiib books latest edition 2018) order by date-desc-rank
+select * from asins where matchingalgorithm(flip mobile phones) and delivery = 'next-day'
+select * from asins where matchingalgorithm(watches for girls latest low price) order by date-desc-rank
+select * from asins where matchingalgorithm(sufi) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(sufi)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(latest kitchen tools) and price < 150 order by date-desc-rank
+select * from asins where matchingalgorithm(nikon d3200 with lens) and size > 18-140mm
+select * from asins where matchingalgorithm(gorl toddlers toys) and delivery = 'next-day'
+select * from asins where matchingalgorithm(latest south indian music books) order by date-desc-rank
+select * from asins where matchingalgorithm(universal remote control) and price < 300
+select * from asins where matchingalgorithm(huawei honor v8 mobile phone) and price < 100
+select * from asins where matchingalgorithm(aztec secret indian healing facial clay mask deep pore cleansing 1 lb.) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(aztec secret indian healing facial clay mask deep pore cleansing 1 lb.)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(stolen assignment) and price = 20
+select * from asins where matchingalgorithm(false nails designed) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(false nails designed)) group by brand order by avg(review-score) desc limit 1)
+select * from asins where matchingalgorithm(latest fashion of women salwar suits) and price < 100 order by date-desc-rank
+select * from asins where matchingalgorithm(funtainer bottle) and size > 12 oz
+select * from asins where matchingalgorithm(goophone i6 plus) and delivery = 'next-day'
+select * from asins where matchingalgorithm(iphone 6 plus gold) and size > 64gb
+select * from asins where matchingalgorithm(men 's shorts) and delivery = 'prime'
+select * from asins where matchingalgorithm(alamon bulbs) and size > large
+select * from asins where matchingalgorithm(battery storage case) and delivery = 'next-day'
+select * from asins where matchingalgorithm(bud vases) and size > mini
+select * from asins where matchingalgorithm(crocs kids) and brand in (select brand, avg(review-score) from asins where matchingalgorithm(crocs kids)) group by brand order by avg(review-score) desc limit 5)

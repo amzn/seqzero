@@ -55,6 +55,17 @@ bash split_sql.sh &&
 cd .. 
 ```
 
+Download encoder.json, vocab.bpe to parser/util_files/bart.large by running:
+```
+cd util_files/bart.large &
+wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/encoder.json' &
+wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/vocab.bpe' &
+cd .. &
+cd ..
+```
+
+Download dict.txt, model.pt from [bart.large.tar.gz](https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz) to parser/util_files/bart.large according to [faiseq bart doc](https://github.com/facebookresearch/fairseq/blob/main/examples/bart/README.md). 
+
 ### Run on GeoQuery
 
 First, run:
@@ -81,16 +92,7 @@ download checkpoint10.pt to data/geo_sql_query_group/bart-checkpoints-large
 download checkpoint37.pt to data/geo_sql_query_order/bart-checkpoints-large 
 
 
-Download encoder.json, vocab.bpe to parser/util_files/bart.large by running:
-```
-cd util_files/bart.large &
-wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/encoder.json' &
-wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/vocab.bpe' &
-cd .. &
-cd ..
-```
-
-Download dict.txt, model.pt from [bart.large.tar.gz](https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz) to parser/util_files/bart.large according to [faiseq bart doc](https://github.com/facebookresearch/fairseq/blob/main/examples/bart/README.md). For the purpose of ensemble, copy model.pt to data/geo_sql_query_from/bart-checkpoints-large.
+For the purpose of ensemble, copy parser/util_files/bart.large/model.pt to data/geo_sql_query_from/bart-checkpoints-large.
 
 To conduct zero-shot, few-shot model and emsemble model inference on from clause, run:
 ```
@@ -99,7 +101,7 @@ bash new_query_sql_bart_large_from_prediction_ensemble.sh 0
 ```
 Note that new_query_sql_bart_large_from.sh is the implementation of weight ensemble, which does not perform as well as prediction emsemble after rescaling. The reason is stated in our paper.
 
-Run on other clauses sequentially:
+Conduct inference on other clauses sequentially:
 
 ```
 bash new_query_sql_bart_large_select.sh 0 &
@@ -110,6 +112,43 @@ bash new_query_sql_bart_large_order.sh 0
 
 To train models, reuse commented code in new_query_sql_bart_large_from_prediction_ensemble.sh, new_query_sql_bart_large_select.sh,new_query_sql_bart_large_where.sh, new_query_sql_bart_large_group.sh,
 bash new_query_sql_bart_large_order.sh
+
+### Run on EcommerceQuery
+
+First, run:
+```
+cd parser
+```
+
+If directly running inference/parsing w/o training, run:
+```
+mkdir data/internal_sql_query_where_match/bart-checkpoints-large &&
+mkdir data/internal_sql_query_where_condition/bart-checkpoints-large 
+```
+download checkpoint15.pt to data/internal_sql_query_where_match/bart-checkpoints-large
+
+download checkpoint21.pt to data/internal_sql_query_where_condition/bart-checkpoints-large
+
+For the purpose of ensemble, copy parser/util_files/bart.large/model.pt to data/internal_sql_query_where_condition/bart-checkpoints-large.
+
+Conduct inference on match part of where clause:
+```
+bash internal_query_sql_bart_large_where_match.sh 0
+```
+
+Conduct emsemble model inference on condition part of where clause:
+```
+bash internal_query_sql_bart_large_where_condition_prediction_ensemble.sh 0
+```
+
+Conduct few-shot model inference on condition part of where clause:
+```
+bash internal_query_sql_bart_large_where_condition.sh 0
+```
+
+To train models, reuse commented code in internal_query_sql_bart_large_where_match.sh, internal_query_sql_bart_large_where_condition_prediction_ensemble.sh, internal_query_sql_bart_large_where_condition.sh
+
+
 
 ## Aknowledgement
 

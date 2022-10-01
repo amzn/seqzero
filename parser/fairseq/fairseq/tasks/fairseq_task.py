@@ -337,7 +337,7 @@ class FairseqTask(object):
         return criterions.build_criterion(cfg, self)
 
     def build_generator(
-        self, models, args, seq_gen_cls=None, extra_gen_cls_kwargs=None, prefix_allowed_tokens_fn=None,
+        self, models, args, seq_gen_cls=None, extra_gen_cls_kwargs=None, prefix_allowed_tokens_fn=None, hard_constraint=True,
     ):
         """
         Build a :class:`~fairseq.SequenceGenerator` instance for this
@@ -432,7 +432,7 @@ class FairseqTask(object):
             )
         elif prefix_allowed_tokens_fn:
             search_strategy = search.PrefixConstrainedBeamSearch(
-                self.target_dictionary, prefix_allowed_tokens_fn
+                self.target_dictionary, prefix_allowed_tokens_fn , hard_constraint
             )
         else:
             search_strategy = search.BeamSearch(self.target_dictionary)

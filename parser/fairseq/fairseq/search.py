@@ -145,10 +145,11 @@ class BeamSearch(Search):
 
 
 class PrefixConstrainedBeamSearch(Search):
-    def __init__(self, tgt_dict, prefix_allowed_tokens_fn):
+    def __init__(self, tgt_dict, prefix_allowed_tokens_fn, hard_constraint=True):
         super().__init__(tgt_dict)
         self.prefix_allowed_tokens_fn = prefix_allowed_tokens_fn
         self.stop_on_max_len = True
+        self.hard_constraint = hard_constraint
 
     @torch.jit.export
     def apply_mask(self, x, prev_output_tokens, original_batch_idxs):
@@ -176,11 +177,12 @@ class PrefixConstrainedBeamSearch(Search):
     ):
         bsz, beam_size, vocab_size = lprobs.size()
 
-        lprobs += self.apply_mask(
-            lprobs.view(bsz * beam_size, 1, vocab_size),
-            prev_output_tokens,
-            original_batch_idxs,
-        ).view(bsz, beam_size, vocab_size)
+        if self.hard_constraint:
+            lprobs += self.apply_mask(
+                lprobs.view(bsz * beam_size, 1, vocab_size),
+                prev_output_tokens,
+                original_batch_idxs,
+            ).view(bsz, beam_size, vocab_size)
 
         if step == 0:
             # at the first step all hypotheses are equally likely, so use

@@ -180,6 +180,7 @@ class GeneratorHubInterface(nn.Module):
         inference_step_args=None,
         prefix_allowed_tokens_fn=None,
         constraints_tensor=None,
+        hard_constraint=True,
         **kwargs
     ) -> List[List[Dict[str, torch.Tensor]]]:
         if torch.is_tensor(tokenized_sentences) and tokenized_sentences.dim() == 1:
@@ -199,6 +200,7 @@ class GeneratorHubInterface(nn.Module):
             self.models,
             gen_args,
             prefix_allowed_tokens_fn=prefix_allowed_tokens_fn,
+            hard_constraint=hard_constraint
         )
 
         inference_step_args = inference_step_args or {}
