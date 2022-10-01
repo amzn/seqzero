@@ -14,11 +14,11 @@ These instructions will get you running the codes.
 * Pytorch 
 * fairseq (our adapted version)
 
-### Env
+### Environment
 
 ```
 conda create --name seqzero_env python=3.8
-coda activate seqzero_env
+conda activate seqzero_env
 ```
 
 If you are using A100, you probably need to change cuda version >= 11.0. Assume it is installed, the run:
