@@ -11,7 +11,8 @@ If you would like to refer to it, please cite the paper mentioned above.
 These instructions will get you running the codes.
 
 ## Requirements
-* Pytorch 
+* Python >= 3.8
+* Pytorch >= 11.1
 * fairseq (our adapted version)
 
 ## Environment
@@ -57,10 +58,11 @@ cd ..
 
 Download `encoder.json`, `vocab.bpe` to `parser/util_files/bart.large` by running:
 ```
-cd util_files/bart.large
+cd parser/util_files/bart.large
 wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/encoder.json' 
 wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/vocab.bpe' 
 cd .. 
+cd ..
 cd ..
 ```
 
@@ -82,7 +84,7 @@ mkdir data/geo_sql_query_where/bart-checkpoints-large
 mkdir data/geo_sql_query_group/bart-checkpoints-large 
 mkdir data/geo_sql_query_order/bart-checkpoints-large 
 ```
-For the purpose of ensemble, copy `parser/util_files/bart.large/model.pt` to `data/geo_sql_query_from/bart-checkpoints-large`.
+For the purpose of ensemble, copy `util_files/bart.large/model.pt` to `data/geo_sql_query_from/bart-checkpoints-large`.
 
 ### Prerequisites of Direct Inference/Parsing w/o Training (Default)
 Download checkpoint38.pt to `data/geo_sql_query_from/bart-checkpoints-large`
@@ -126,7 +128,7 @@ Run:
 mkdir data/internal_sql_query_where_match/bart-checkpoints-large 
 mkdir data/internal_sql_query_where_condition/bart-checkpoints-large 
 ```
-For the purpose of ensemble, copy `parser/util_files/bart.large/model.pt` to `data/internal_sql_query_where_condition/bart-checkpoints-large`.
+For the purpose of ensemble, copy `util_files/bart.large/model.pt` to `data/internal_sql_query_where_condition/bart-checkpoints-large`.
 
 ### Prerequisites of Direct Inference/Parsing w/o Training (Default)
 Download checkpoint15.pt to `data/internal_sql_query_where_match/bart-checkpoints-large`
