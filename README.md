@@ -10,7 +10,7 @@ If you would like to refer to it, please cite the paper mentioned above.
 ## Requirements
 * Python >= 3.8
 * Pytorch >= 11.1
-* fairseq (our adapted version)
+* fairseq (our adapted version in `parser/fairseq`)
 
 ## Environment
 
