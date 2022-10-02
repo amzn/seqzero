@@ -7,9 +7,6 @@ This repo contains codes for the following paper:
 If you would like to refer to it, please cite the paper mentioned above. 
 
 
-## Getting Started
-These instructions will get you running the codes.
-
 ## Requirements
 * Python >= 3.8
 * Pytorch >= 11.1
