@@ -155,13 +155,21 @@ To train models, reuse commented training code in `internal_query_sql_bart_large
 Several arguments are available to run `python semantic_parsing.py`, which enables Constrained Decoding and Ensemble based on Fairseq.
 
 `--model-file`: providing two models separated by `:` means ensemble of them.
+
 `--prediction-weight`: ensemble weight of two models's prediction scores after constrained rescaling of the second model's probablitity.
+
 `--weight-ensemble`: use weight ensemble instead of prediction score ensemble of two models.
+
 `--use-prefix-constriant`: use prefix-constrained decoding to alow generating only specific tokens given prefix, see [details](https://arxiv.org/abs/2010.00904).
+
 `--prefix-file`: the file containing allowed sequences to build trie for prefix-constrained decoding, not that this is a hard constraint, which means those sequences are the only allowed generated sequences.
+
 `--partial-trie --no-hard-constraint`: use soft partial-prefix-constrained decoding, which means the prefix does not necessarily start at the beginning position. In this case, the rescaled prediction scores according to partial prefixed will be ensembled woth the first model.
+
 `--weight-ensemble`: use weight ensemble instead of prediction score ensemble of two models.
+
 `--prompt`: prompt for generation, which means generated first several tokens are constrained to be the provides prompt.
+
 `--prompt-file`: the file containing prompts for generation, which means generated first several tokens are constrained to be the provides prompt. Different input could have different prompt provides. Thus, the number of lines in the propt file should be the same as the number of lines in the input file.
 
 ## Aknowledgement
