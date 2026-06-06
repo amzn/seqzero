@@ -34,7 +34,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch
 ```
 
 ```
-cd parsers/fairseq 
+cd parser/fairseq 
 pip install --editable ./ 
 cd .. 
 cd ..
@@ -46,7 +46,7 @@ export PYTHONPATH="${PYTHONPATH}:loc/seqzero/parser/fairseq"
 ```
 where `loc` is your location of the repo.
 
-## Data Preperation
+## Data Preparation
 ```
 cd preprocess 
 bash split_sql.sh 
@@ -63,7 +63,7 @@ cd ..
 cd ..
 ```
 
-Download `dict.txt`, `model.pt` from [bart.large.tar.gz](https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz) to `parser/util_files/bart.large` according to [faiseq bart doc](https://github.com/facebookresearch/fairseq/blob/main/examples/bart/README.md). 
+Download `dict.txt`, `model.pt` from [bart.large.tar.gz](https://dl.fbaipublicfiles.com/fairseq/models/bart.large.tar.gz) to `parser/util_files/bart.large` according to [fairseq bart doc](https://github.com/facebookresearch/fairseq/blob/main/examples/bart/README.md). 
 
 ## Run on GeoQuery
 
@@ -95,11 +95,11 @@ Download [checkpoint10.pt](https://seqzero.s3.amazonaws.com/checkpoint10.pt) to 
 Download [checkpoint37.pt](https://seqzero.s3.amazonaws.com/checkpoint37.pt) to `data/geo_sql_query_order/bart-checkpoints-large`
 
 ### Inference/Parsing 
-To conduct zero-shot, few-shot model and emsemble model inference on `FROM` clause, run:
+To conduct zero-shot, few-shot model and ensemble model inference on `FROM` clause, run:
 ```
 bash new_query_sql_bart_large_from_prediction_ensemble.sh 0
 ```
-Note that `new_query_sql_bart_large_from.sh` is the implementation of weight ensemble, which does not perform as well as prediction emsemble after rescaling. The reason is stated in our paper.
+Note that `new_query_sql_bart_large_from.sh` is the implementation of weight ensemble, which does not perform as well as prediction ensemble after rescaling. The reason is stated in our paper.
 
 Conduct inference on other clauses sequentially:
 ```
@@ -138,7 +138,7 @@ Conduct inference on `match` part of `WHERE` clause:
 bash internal_query_sql_bart_large_where_match.sh 0
 ```
 
-Conduct emsemble model inference on `condition` part of `WHERE` clause:
+Conduct ensemble model inference on `condition` part of `WHERE` clause:
 ```
 bash internal_query_sql_bart_large_where_condition_prediction_ensemble.sh 0
 ```
@@ -168,11 +168,11 @@ Several arguments are available to run `python semantic_parsing.py`, which enabl
 
 `--weight-ensemble`: use weight ensemble instead of prediction score ensemble of two models.
 
-`--prompt`: prompt for generation, which means generated first several tokens are constrained to be the provides prompt.
+`--prompt`: prompt for generation, which means generated first several tokens are constrained to be the provided prompt.
 
-`--prompt-file`: the file containing prompts for generation, which means generated first several tokens are constrained to be the provides prompt. Different input could have different prompt provides. Thus, the number of lines in the propt file should be the same as the number of lines in the input file.
+`--prompt-file`: the file containing prompts for generation, which means generated first several tokens are constrained to be the provided prompt. Different input could have different prompt provides. Thus, the number of lines in the propt file should be the same as the number of lines in the input file.
 
-## Aknowledgement
+## Acknowledgement
 
 Parsers are adapted from [fairseq](https://github.com/pytorch/fairseq).
 
